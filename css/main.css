@@ -44,7 +44,7 @@ body {
 }
 
 body a {
-    text-decoration: none;
+    text-decoration: transparent;
 
 }
 
@@ -81,6 +81,10 @@ body a {
     font-size: 13px;
     line-height: 15px;
     color: #837D88;
+    transition: all 0.3s linear;
+}
+.header .header-right .nav .nav-list .list-item .item-link:hover {
+color: #000;
 }
 
 .header .header-right .nav .nav-list .list-item .item-link:nth-child(3) {
@@ -94,6 +98,11 @@ body a {
     color: #2C2830;
     padding: 13px 28px;
     border: 1.5px solid #2C2830;
+    transition: all 0.3s linear;
+}
+.header .header-right .btn:hover {
+ background-color:#2C2830 ;
+ color: #fff;
 }
 
 .section-one {
@@ -150,8 +159,13 @@ body a {
     border: 1.5px solid #FFF;
     padding: 13px 28px;
     display: inline-block;
-
+    transition: all 0.3s linear;
+    
 }
+.section-one .barner .barner-lef .btn:hover {
+    background-color:#fff ;
+    color: #2C2830;
+   }
 
 .section-one .barner .barner-right img {
     position: absolute;
@@ -269,6 +283,13 @@ body a {
     padding: 13px 24px;
     border: 1.5px solid #FFF;
     color: #FFF;
+    transition: all 0.3s linear;
+
+}
+.article .btn:hover {
+    background-color: #fff;
+    color:#2C2830;
+
 }
 
 .footer {
@@ -320,5 +341,9 @@ body a {
     font-size: 13px;
     line-height: 35px;
     color: #2D2641;
-
+    transition: all 0.3s linear;
+    
+}
+.footer .footer-bottom .list .list-item .item-link:hover {
+ border-bottom: 1px solid #000;
 }
